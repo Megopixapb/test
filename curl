@@ -1,0 +1,5 @@
+curl -H "Content-Type: application/json" -X -d '{"username": "Тест", "content": "Привет!"}' https://discord.com/api/webhooks/1011583226822803466/MBh67oF8gN6d_mwTxIKkk7brB8smdIzaIo1XPRazCV5Hvz2ohXRjKNu4phZLNozRbXO6
+
+# -H "Content-Type: application/json" - загаловок которые сообщает серверу, что вы отправляете JSON данные
+# -X POST - использовать метод POST
+# -d '{"username": "Тест", "content": "Привет!"}' - добавляет данные в запрос
