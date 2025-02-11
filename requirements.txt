@@ -1,1 +1,6 @@
 
+rando
+asyncio
+logging
+aiomysql
+aiogram
